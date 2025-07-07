@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header{
+             background-color: white;
+             padding: 10px;
+             margin: 10px;
+             box-shadow: 2px 3px 7px rgba(37, 37, 37, 0.329);
+             border-radius: 8px;
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 2px 3px 7px rgba(37, 37, 37, 0.658);
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 3px 7px rgba(37, 37, 37, 0.459);
+            border-radius: 8px;
+        }
+        article{
+            background-color: #c2c0c0d2;
+            padding: 5px;
+           
+        }
+        article > aside{
+            background-color: rgb(104, 104, 104);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 6px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+          <p>Esportes Politicas e Tecnologia</p>  
+        </section>
+        <section id="noticia">
+            <article>
+                <h2>Noticia sobre o leitor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, alias aliquid eius cum reiciendis ea dolorum numquam corporis deserunt quis modi qui? Laborum deserunt, odit velit corrupti voluptatibus praesentium!</p>
+                <aside>
+                    <p>Artigo escrito por Gustavo oliveira</p>  
+                </aside>       
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gustavo</p>
+    </footer>
+</body>
+</html>

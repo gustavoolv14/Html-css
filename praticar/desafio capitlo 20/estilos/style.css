@@ -67,7 +67,7 @@ section#img01{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    box-shadow: inset 8px 8px 10px 0px rgba(0, 0, 0, 0.671) ;
 }
 section#img02{
     background-image: url(../imagens/background002.jpg);
@@ -75,6 +75,7 @@ section#img02{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 5px 5px 13px 0px #0000009f ;
 }
 a {
     color: #ffffff;

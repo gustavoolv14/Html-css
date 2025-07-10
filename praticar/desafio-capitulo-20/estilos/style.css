@@ -53,30 +53,27 @@ section.normal{
 section.imagem{
     background-color: blue;
     color: #ffffff;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 8px 8px 10px 0px rgba(0, 0, 0, 0.671) ;
 }
 
 section.imagem > p{
+    display: block;
     background-color:#00000086 ;
     width: 400px;
     padding: 2px;
 }
 
 section#img01{
-    display: block;
     background-image: url('../imagens/background001.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 8px 8px 10px 0px rgba(0, 0, 0, 0.671) ;
+    background-position: center bottom;
+
 }
 section#img02{
-    background-image: url(../imagens/background002.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 5px 5px 13px 0px #0000009f ;
+    background-image: url('../imagens/background002.jpg');
+
 }
 a {
     color: #ffffff;

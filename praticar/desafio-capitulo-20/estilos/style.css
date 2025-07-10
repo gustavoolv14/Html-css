@@ -56,14 +56,14 @@ section.imagem{
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 8px 8px 10px 0px rgba(0, 0, 0, 0.671) ;
+
 }
 
 section.imagem > p{
     display: block;
-    background-color:#0000008f ;
-    width: 300px;
+    background-color:#0000006b ;
+    width: 400px;
     padding: 5px;
-    margin: auto;
 }
 
 section#img01{

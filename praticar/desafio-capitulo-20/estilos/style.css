@@ -22,7 +22,7 @@ header{
 header h1{
     font-family: 'Passion one';
     padding-top: 50px;
-    font-size: 4em;
+    font-size: 10vw;
     font-variant: small-caps;
 }
 header p{
@@ -32,7 +32,7 @@ header p{
 }
 main{
     font-family: 'Sriracha';
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 section{
@@ -51,7 +51,6 @@ section.normal{
 }
 
 section.imagem{
-    background-color: blue;
     color: #ffffff;
     background-position: center bottom;
     background-size: cover;
@@ -61,9 +60,10 @@ section.imagem{
 
 section.imagem > p{
     display: block;
-    background-color:#00000086 ;
-    width: 400px;
-    padding: 2px;
+    background-color:#0000008f ;
+    width: 300px;
+    padding: 5px;
+    margin: auto;
 }
 
 section#img01{

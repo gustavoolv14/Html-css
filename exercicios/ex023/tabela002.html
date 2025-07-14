@@ -10,7 +10,7 @@
         }
         
         table{
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
         }
 
@@ -20,10 +20,19 @@
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(37, 37, 37);
             color: aliceblue;
         }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
 
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+            background-color: rgba(128, 128, 128, 0.514);
+            padding: 10px;
+        }
 
     </style>
 </head>
@@ -39,10 +48,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                 <th>Estado</th>
-                 <th>população</th>
+                 <th scope="col">Estado</th>
+                 <th scope="col" style="width: 90px;">população</th>
             </tr>
         </thead>
         <tbody>
@@ -55,13 +65,13 @@
                 <td>21 322 691</td>
             </tr>
             <tr>
-                <td>rio de Janeiro</td>
+                <td>Rio de Janeiro</td>
                 <td>17 219 679</td>
             </tr>
             
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th sccope="row">Total de Habitantes</th>
             <td><strong>000000</strong></td>
         </tfoot>
     </table>

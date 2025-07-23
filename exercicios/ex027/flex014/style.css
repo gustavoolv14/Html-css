@@ -7,6 +7,7 @@
 }
 
 body {
+    background-image: line;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
@@ -50,6 +51,7 @@ article.media-text {
 }
 
 article.text-media {
+     /* Flexbox */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;

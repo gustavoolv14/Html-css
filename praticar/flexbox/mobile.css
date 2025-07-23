@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+header {
+    flex-flow: column wrap;
+}
+header h1 {
+    flex-basis: 40px;
+}
+header a {
+    width: 95vw;
+}
